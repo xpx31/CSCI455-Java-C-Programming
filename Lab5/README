@@ -1,0 +1,63 @@
+Q 1.1
+The line number
+Ex: AssertTester.java:5
+
+Q 2.1
+0: 20 5 1 9 10 
+1: 19 4 8 9 5 
+2: 18 3 7 8 4 5 
+3: 17 2 6 7 3 4 6 
+4: 16 1 5 6 2 3 5 7 
+5: 15 4 5 1 2 4 6 8 
+6: 14 3 4 1 3 5 7 8 
+7: 13 2 3 2 4 6 7 8 
+8: 12 1 2 1 3 5 6 7 8 
+9: 11 1 2 4 5 6 7 9 
+10: 10 1 3 4 5 6 8 8 
+11: 9 2 3 4 5 7 7 8 
+12: 8 1 2 3 4 6 6 7 8 
+13: 7 1 2 3 5 5 6 7 9 
+14: 6 1 2 4 4 5 6 8 9 
+15: 5 1 3 3 4 5 7 8 9 
+16: 4 2 2 3 4 6 7 8 9 
+17: 3 1 1 2 3 5 6 7 8 9 
+18: 2 1 2 4 5 6 7 8 10 
+19: 1 1 3 4 5 6 7 9 9 
+20: 2 3 4 5 6 8 8 9 
+21: 1 2 3 4 5 7 7 8 8 
+22: 1 2 3 4 6 6 7 7 9 
+23: 1 2 3 5 5 6 6 8 9 
+24: 1 2 4 4 5 5 7 8 9 
+25: 1 3 3 4 4 6 7 8 9 
+26: 2 2 3 3 5 6 7 8 9 
+27: 1 1 2 2 4 5 6 7 8 9 
+28: 1 1 3 4 5 6 7 8 10 
+29: 2 3 4 5 6 7 9 9 
+30: 1 2 3 4 5 6 8 8 8 
+31: 1 2 3 4 5 7 7 7 9 
+32: 1 2 3 4 6 6 6 8 9 
+33: 1 2 3 5 5 5 7 8 9 
+34: 1 2 4 4 4 6 7 8 9 
+35: 1 3 3 3 5 6 7 8 9 
+36: 2 2 2 4 5 6 7 8 9 
+37: 1 1 1 3 4 5 6 7 8 9 
+38: 2 3 4 5 6 7 8 10
+39: 1 2 3 4 5 6 7 9 8
+
+Q 2.2
+   public static final int NUM_FINAL_PILES = 9;
+   public static final int CARD_TOTAL = NUM_FINAL_PILES * (NUM_FINAL_PILES + 1) / 2;
+   private Random generator = new Random();
+   private int[] cards = new int[CARD_TOTAL + 1];
+
+Q 2.3
+
+Q 3
+	1. the max. number of inputs must be less than or equal to CARD_TOTAL
+	2. any input must be larger than 0
+	3. any input must be less than or equal to CARD_TOTAL
+	4. all inputs must sum up to CARD_TOTAL
+
+Q 4
+
+	
